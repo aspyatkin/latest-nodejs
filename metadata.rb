@@ -1,6 +1,16 @@
 name 'latest-nodejs'
+maintainer 'Alexander Pyatkin'
+maintainer_email 'aspyatkin@gmail.com'
+license 'MIT'
+version '1.1.0'
 description 'Installs and configures nodejs'
-version '1.0.0'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
-recipe 'latest-nodejs', 'Installs and configures nodejs'
-depends 'nodejs', '2.4.2'
+recipe 'latest-nodejs::default', 'Installs and configures nodejs from source'
+recipe 'latest-nodejs::from_binary', 'Installs and configures nodejs from binary'
+depends 'nodejs', '~> 2.4.2'
+
+source_url 'https://github.com/aspyatkin/latest-nodejs' if respond_to?(:source_url)
+
+supports 'ubuntu'
+supports 'centos'
