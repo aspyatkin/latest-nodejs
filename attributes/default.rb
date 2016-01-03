@@ -1,6 +1,6 @@
-override['nodejs']['version'] = '4.2.2'
-override['nodejs']['source']['checksum'] = '00e709353435b436b5bbf5e62272ebb15fe801065422c4c2afe2b93456210cb1'
-override['nodejs']['binary']['checksum']['linux_x64'] = '5c39fac55c945be3b8ac381a12bdbe3a64a9bdc5376d27e2ce0c72160eff5942'
-override['nodejs']['binary']['checksum']['linux_x86'] = '7fe7d716cf52db39fa0590885e2f39a0bdee9ecbba230621f042c8154e8100fe'
+override['nodejs']['version'] = '4.2.4'
+override['nodejs']['source']['checksum'] = '4ee244ffede7328d9fa24c3024787e71225b7abaac49fe2b30e68b27460c10ec'
+override['nodejs']['binary']['checksum']['linux_x64'] = 'dcae0c0faf9841ef38953075e67ca477ef9d2ea7c14ac2221de2429813f83a62'
+override['nodejs']['binary']['checksum']['linux_x86'] = '39c0d90eb65f38f24a4cd2939212b655ea0e8685b92b7de6f407d0df5d6c261c'
 
 node.from_file(run_context.resolve_attribute('nodejs', 'default'))
