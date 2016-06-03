@@ -1,14 +1,19 @@
 id = 'latest-nodejs'
 
-default[id][:install] = 'lts'
-default[id][:binary] = false
+default[id]['install'] = 'lts'
+default[id]['binary'] = false
 
-default[id][:lts][:version] = '4.4.2'
-default[id][:lts][:source][:checksum] = 'ae91cb0a31f87b5b13bb2665178845d99abf1037dc3636fa88f442b4a4c65297'
-default[id][:lts][:binary][:checksum][:linux_x86] = '0c2bdf6fed204c6b9bddd7f839f49010cf9b484986f820e20d4f7abb01d8ee9d'
-default[id][:lts][:binary][:checksum][:linux_x64] = 'b4a44dbe528520397621aad76168bdfd50cdb96fb1f15e99358263f6400c33d2'
+default[id]['lts']['version'] = '4.4.5'
+default[id]['lts']['source']['checksum'] = 'ea9c96ae4768feee4f18a26b819b9b4f6e49105ea0ee8c5c9d188dc8d49d4b77'
+default[id]['lts']['binary']['checksum']['linux_x86'] = '447b17542981c20f6792a20c31eb946c786e2cbd3bd1459f85c2cd0eb400e009'
+default[id]['lts']['binary']['checksum']['linux_x64'] = '15d57c4a3696df8d5ef1bba452d38e5d27fc3c963760eeb218533c48381e89d5'
 
-default[id][:stable][:version] = '5.10.1'
-default[id][:stable][:source][:checksum] = 'c6e278b612b53c240ddf85521403e55abfd8f0201d2f2c7e3d2c21383054aacd'
-default[id][:stable][:binary][:checksum][:linux_x86] = 'a4c17570bd03424cd57affd10a4ef7d3b76167d3646656236bc78b86bc622a88'
-default[id][:stable][:binary][:checksum][:linux_x64] = '897506e1e83cba9b780b030c9cc7299b0ae8872c0b8b0081a86996079025cea5'
+default[id]['stable']['version'] = '5.11.1'
+default[id]['stable']['source']['checksum'] = 'be1211ce415ecc48412ce3e9d5b48cf9ec8e99b34f25b4e1909a02679cc72fab'
+default[id]['stable']['binary']['checksum']['linux_x86'] = '5c8269b21400327eaae94f52d220127a90eca40ab7574f9da07811c48d25570f'
+default[id]['stable']['binary']['checksum']['linux_x64'] = 'd8e30e79a1e4ad56f55ef59facdf913c950e9664528f59f4388e85fdd899dfde'
+
+default[id]['current']['version'] = '6.2.1'
+default[id]['current']['source']['checksum'] = 'fa26d4380150fbb69a48bddaec6143e176effe043cfe44e512c5ef9d22618b63'
+default[id]['current']['binary']['checksum']['linux_x86'] = 'f5656c288c1dfc760a23000d8dc1eb3d0ff484a7798e5f28718a728ae96e9125'
+default[id]['current']['binary']['checksum']['linux_x64'] = 'c6ae9c90858fb47a2915ad6494e5eb8e6f34f4512de1d5a461e5fb0c003590b1'
