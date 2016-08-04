@@ -3,17 +3,26 @@ id = 'latest-nodejs'
 default[id]['install'] = 'lts'
 default[id]['binary'] = false
 
-default[id]['lts']['version'] = '4.4.5'
-default[id]['lts']['source']['checksum'] = 'ea9c96ae4768feee4f18a26b819b9b4f6e49105ea0ee8c5c9d188dc8d49d4b77'
-default[id]['lts']['binary']['checksum']['linux_x86'] = '447b17542981c20f6792a20c31eb946c786e2cbd3bd1459f85c2cd0eb400e009'
-default[id]['lts']['binary']['checksum']['linux_x64'] = '15d57c4a3696df8d5ef1bba452d38e5d27fc3c963760eeb218533c48381e89d5'
+default[id]['lts']['version'] = '4.4.7'
+default[id]['lts']['source']['checksum'] = \
+  'cbe1c6e421969dd5639d0fbaa6d3c1f56c0463b87efe75be8594638da4d8fc4f'
+default[id]['lts']['binary']['checksum']['linux_x86'] = \
+  '604c4f85ef00a13c172465c9672a2a0f13524921e255eeb75242afb42af6d814'
+default[id]['lts']['binary']['checksum']['linux_x64'] = \
+  '5ad10465cc9d837c1fda8db0fd1bdc1a4ce823dd6afbc533ac2127e6a9a64133'
 
-default[id]['stable']['version'] = '5.11.1'
-default[id]['stable']['source']['checksum'] = 'be1211ce415ecc48412ce3e9d5b48cf9ec8e99b34f25b4e1909a02679cc72fab'
-default[id]['stable']['binary']['checksum']['linux_x86'] = '5c8269b21400327eaae94f52d220127a90eca40ab7574f9da07811c48d25570f'
-default[id]['stable']['binary']['checksum']['linux_x64'] = 'd8e30e79a1e4ad56f55ef59facdf913c950e9664528f59f4388e85fdd899dfde'
+default[id]['stable']['version'] = '5.12.0'
+default[id]['stable']['source']['checksum'] = \
+  '250c12a561d7319e71e142ee92ab682494c7823d81ce24703c80eb52bdf9ba42'
+default[id]['stable']['binary']['checksum']['linux_x86'] = \
+  '1ee1ef4e9f8bfb2976f35ca10658f3828cae10ef462d3fee7c3f159a3e21365b'
+default[id]['stable']['binary']['checksum']['linux_x64'] = \
+  'c0f459152aa87aba8a019a95899352170db0d8d52c860715c88356cb253fe2c4'
 
-default[id]['current']['version'] = '6.2.1'
-default[id]['current']['source']['checksum'] = 'fa26d4380150fbb69a48bddaec6143e176effe043cfe44e512c5ef9d22618b63'
-default[id]['current']['binary']['checksum']['linux_x86'] = 'f5656c288c1dfc760a23000d8dc1eb3d0ff484a7798e5f28718a728ae96e9125'
-default[id]['current']['binary']['checksum']['linux_x64'] = 'c6ae9c90858fb47a2915ad6494e5eb8e6f34f4512de1d5a461e5fb0c003590b1'
+default[id]['current']['version'] = '6.3.1'
+default[id]['current']['source']['checksum'] = \
+  '3f6144dcf13c210b11c83dc0b0a841219347a769b5a3b883b20f7ab8dc4008f6'
+default[id]['current']['binary']['checksum']['linux_x86'] = \
+  '23f07c6467f69c7e572e71a712bbc9c78be14ccad32f694edd52bc45b272a638'
+default[id]['current']['binary']['checksum']['linux_x64'] = \
+  'eccc530696d18b07c5785e317b2babbea9c1dd14dbab80be734b820fc241ddea'
