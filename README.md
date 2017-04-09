@@ -5,7 +5,7 @@ Chef cookbook to install [Node.js](https://nodejs.org/en) from source or binarie
  - [nodejs](https://supermarket.chef.io/cookbooks/nodejs) cookbook
 
 ## Attributes
-`node['latest-nodejs']['install']` - Node.js release group (lts, stable, current)  
+`node['latest-nodejs']['install']` - Node.js release group (lts, current)  
 `node['latest-nodejs']['binary']` - Install binaries or from source
 
 ## Recipes
