@@ -2,7 +2,7 @@ name 'latest-nodejs'
 maintainer 'Alexander Pyatkin'
 maintainer_email 'aspyatkin@gmail.com'
 license 'MIT'
-version '1.4.0'
+version '1.5.0'
 description 'Installs and configures Node.js'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
