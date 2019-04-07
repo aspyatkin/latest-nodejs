@@ -3,18 +3,14 @@ id = 'latest-nodejs'
 default[id]['install'] = 'lts'
 default[id]['binary'] = true
 
-default[id]['lts']['version'] = '8.11.1'
+default[id]['lts']['version'] = '10.15.1'
 default[id]['lts']['source']['checksum'] = \
-  '86678028f13b26ceed08efc4b838921ca1bf514c0b7e8151bfec8ba15c5e66ad'
-default[id]['lts']['binary']['checksum']['linux_x86'] = \
-  '373e28cb9549fda7063b35eba84827fb0fda6c01856d0b310431eaea7d0c6d45'
+  '5202f6f6bfda16554c8121ea78e4cffee52e2707e1136c88f3c40b0c2af8100f'
 default[id]['lts']['binary']['checksum']['linux_x64'] = \
-  '0e20787e2eda4cc31336d8327556ebc7417e8ee0a6ba0de96a09b0ec2b841f60'
+  'ca1dfa9790876409c8d9ecab7b4cdb93e3276cedfc64d56ef1a4ff1778a40214'
 
-default[id]['current']['version'] = '10.1.0'
+default[id]['current']['version'] = '11.10.0'
 default[id]['current']['source']['checksum'] = \
-  'e4b5a1d9fac4b20b5421afe34108867df359c69c4c4e2ad6e2bd75b113ddf0db'
-default[id]['current']['binary']['checksum']['linux_x86'] = \
-  'n/a'
+  '45835c210955cd05cab259e664cc19a6f2748dbda6bc9e13edc9a2e8cc498770'
 default[id]['current']['binary']['checksum']['linux_x64'] = \
-  'a750eaa8dd2abf175216377da86ed24d1265597b86c542fcf9cdf7b8043e006e'
+  '4117de50800ecc6d5f7a9c3989d5497fa9dd37df87a904ac4d49948ab10d39ba'
